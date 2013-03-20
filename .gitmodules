@@ -1,0 +1,3 @@
+[submodule "gwen"]
+	path = gwen
+	url = git@github.com:pixelballoon/external-gwen.git

@@ -37,4 +37,4 @@ set (SOURCES
 	"src/lzio.c"
 	)
 
-add_library (lua STATIC ${SOURCES})
+add_library (lua ${PIXELBOOST_LIBRARY_TYPE} ${SOURCES})

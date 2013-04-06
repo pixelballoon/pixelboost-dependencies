@@ -22,4 +22,4 @@ set (SOURCES
 	"src/psnames/psnames.c"
 	)
 
-add_library (freetype2 STATIC ${SOURCES})
+add_library (freetype2 ${PIXELBOOST_LIBRARY_TYPE} ${SOURCES})

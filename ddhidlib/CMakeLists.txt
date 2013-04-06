@@ -21,4 +21,4 @@ set (SOURCES
 	"vendor/NSXReturnThrowError/NSXReturnThrowError.m"
 	)
 
-add_library (ddhidlib STATIC ${SOURCES})
+add_library (ddhidlib ${PIXELBOOST_LIBRARY_TYPE} ${SOURCES})

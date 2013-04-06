@@ -25,4 +25,4 @@ set (SOURCES
 	"win32.c"
 	)
 
-add_library (enet STATIC ${SOURCES})
+add_library (enet ${PIXELBOOST_LIBRARY_TYPE} ${SOURCES})
